@@ -1,0 +1,9 @@
+---
+- hosts: os-ctrl
+  sudo: yes
+  tags:
+    - os_ctrl
+
+  roles:
+    - keystone
+

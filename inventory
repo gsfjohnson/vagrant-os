@@ -1,0 +1,3 @@
+[os-ctrl]
+localhost ansible_connection=local
+

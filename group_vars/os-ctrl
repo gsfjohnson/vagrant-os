@@ -1,0 +1,20 @@
+---
+
+ntp_restrict:
+  - network: -4
+    params: default kod notrap nomodify
+  - network: -6
+    params: default kod notrap nomodify
+
+mysql_root_pass: 767cff8f661a872392c5
+
+osks_admin_token: 9827604d39e4cdb6f084
+osks_verbose: True
+# osks_public_endpoint: "https://ctrl.zqxj.pw/identity/main/"
+# osks_admin_endpoint: "https://ctrl.zqxj.pw/identity/admin/"
+osks_db_connection: "mysql://keystone:46cb3a6ece9d133be605@localhost/keystone"
+osks_memcache_servers: "localhost:11211"
+osks_revoke_driver: keystone.contrib.revoke.backends.sql.Revoke
+osks_token_provider: keystone.token.providers.uuid.Provider
+osks_token_driver: keystone.token.persistence.backends.memcache.Token
+
