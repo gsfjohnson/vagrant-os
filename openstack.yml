@@ -6,5 +6,6 @@
 
   roles:
     - mysql
+    - rabbitmq
     - keystone
 
