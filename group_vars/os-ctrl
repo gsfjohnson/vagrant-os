@@ -24,7 +24,7 @@ osks_rmq_pass: 9827604d39e4cdb6f084
 
 rmq_users:
   - user: openstack
-    pass: "{{osks_rmq_pass}}"
+    password: "{{osks_rmq_pass}}"
 
 rmq_ca_cert: |
   -----BEGIN CERTIFICATE-----
