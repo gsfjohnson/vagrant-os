@@ -5,6 +5,7 @@
     - os_ctrl
 
   roles:
+    - ntp
     - mysql
     - rabbitmq
     - keystone
